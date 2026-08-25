@@ -39,6 +39,13 @@
     "certified" true
   })
   ({
+    "name"      "shen-go (bytecode VM)"
+    "platform"  "Go"
+    "github"    "pyrex41/shen-go"
+    "kernel"    "41.2"
+    "certified" true
+  })
+  ({
     "platform"  "Haskell"
     "github"    "mthom/shentong"
     "kernel"    "20.0"
@@ -51,9 +58,21 @@
     "certified" true
   })
   ({
+    "platform"  "Lua"
+    "github"    "pyrex41/shen-lua"
+    "kernel"    "41.2"
+    "certified" true
+  })
+  ({
     "platform"  "Ruby"
     "github"    "gregspurrier/shen-ruby"
     "kernel"    "19.1"
+    "certified" true
+  })
+  ({
+    "platform"  "Rust"
+    "github"    "pyrex41/shen-rust"
+    "kernel"    "41.2"
     "certified" true
   })
   ({

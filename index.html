@@ -147,6 +147,18 @@
               <td><a href="https://github.com/tizoc/shen-scheme">tizoc/shen-scheme</a></td>
             </tr>
             <tr>
+              <td>Go</td>
+              <td><a href="https://github.com/pyrex41/shen-go">pyrex41/shen-go</a> (bytecode VM, kernel 41.2) &mdash; fork of <a href="https://github.com/tiancaiamao/shen-go">tiancaiamao/shen-go</a></td>
+            </tr>
+            <tr>
+              <td>Lua</td>
+              <td><a href="https://github.com/pyrex41/shen-lua">pyrex41/shen-lua</a> (LuaJIT, kernel 41.2)</td>
+            </tr>
+            <tr>
+              <td>Rust</td>
+              <td><a href="https://github.com/pyrex41/shen-rust">pyrex41/shen-rust</a> (tree-walker + bytecode VM + AOT-compiled kernel, kernel 41.2)</td>
+            </tr>
+            <tr>
               <th colspan="2">Inactive Ports</th>
             </tr>
             <tr>
@@ -223,6 +235,18 @@
             </tr>
           </tbody></table>
         </div>
+      </section>
+      <section>
+        <header><a class="anchor" aria-hidden="true" id="tooling" href="#tooling">Shen tooling</a></header>
+        <p>
+          <a href="https://github.com/pyrex41/bifrost"><strong>Bifrost</strong></a> is an experimental cross-implementation test harness and command-line front door for Shen. It can run the same program or expression on a selected port, compare behavior across ports, and report conformance differences.
+        </p>
+        <p>
+          <a href="https://github.com/pyrex41/yggdrasil"><strong>Yggdrasil</strong></a> is an experimental tree-shaker for Shen programs. It removes unreachable kernel code and builds standalone artifacts for supported hosts, including Common Lisp, LuaJIT, Go, JavaScript, Rust, Julia, Scheme, and Swift.
+        </p>
+        <p>
+          Both projects are under active development and need broader testing, especially on Windows. Please treat their current port matrix and standalone-artifact support as experimental and report portability issues in their repositories.
+        </p>
       </section>
       <section>
         <header><a class="anchor" aria-hidden="true" id="contributing" href="#contributing">Contributing</a></header>
