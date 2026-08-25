@@ -76,9 +76,30 @@
     "certified" true
   })
   ({
+    "name"      "shen-julia"
+    "platform"  "Julia"
+    "github"    "pyrex41/shen-julia"
+    "kernel"    "41.2"
+    "certified" true
+  })
+  ({
+    "name"      "shen-swift"
+    "platform"  "Swift"
+    "github"    "pyrex41/shen-swift"
+    "kernel"    "41.2"
+    "certified" true
+  })
+  ({
     "platform"  "Scheme"
     "github"    "tizoc/shen-scheme"
     "kernel"    "22.2"
+    "certified" true
+  })
+  ({
+    "name"      "shen-truffle (GraalVM 25)"
+    "platform"  "Truffle"
+    "github"    "pyrex41/shen-truffle"
+    "kernel"    "41.2"
     "certified" true
   })
   ({
