@@ -42,7 +42,7 @@
     "name"      "shen-go (bytecode VM)"
     "platform"  "Go"
     "github"    "pyrex41/shen-go"
-    "kernel"    "41.1"
+    "kernel"    "41.2"
     "certified" true
   })
   ({
@@ -60,7 +60,7 @@
   ({
     "platform"  "Lua"
     "github"    "pyrex41/shen-lua"
-    "kernel"    "41.1"
+    "kernel"    "41.2"
     "certified" true
   })
   ({
@@ -72,7 +72,7 @@
   ({
     "platform"  "Rust"
     "github"    "pyrex41/shen-rust"
-    "kernel"    "41.1"
+    "kernel"    "41.2"
     "certified" true
   })
   ({
