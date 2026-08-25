@@ -103,6 +103,14 @@
     "windows-tested" false
   })
   ({
+    "name"     "Shen/Truffle"
+    "platform" "Truffle"
+    "github"   "pyrex41/shen-truffle"
+    "kernel"   "41.2"
+    "experimental" true
+    "windows-tested" false
+  })
+  ({
     "platform"  "Truffle"
     "github"    "ragnard/shen-truffle"
     "kernel"    "20.1"
